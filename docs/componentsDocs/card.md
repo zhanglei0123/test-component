@@ -2,7 +2,7 @@
 卡片组件
 
 ### 示例
-<m-card imgSrc="/testone.jpeg" summary="test" />
+<m-card imgSrc="/test-component/testone.jpeg" summary="test" />
 
 ### 代码
 ```html
