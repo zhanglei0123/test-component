@@ -1,18 +1,24 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Demo />
+    <m-card
+      imgSrc="testone.jpeg"
+      :imgHeight="280"
+    >
+      这里是概要部分
+      <template v-slot:footer>
+        <div>底部详细说明</div>
+      </template>
+    </m-card>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
 

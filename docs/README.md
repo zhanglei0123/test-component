@@ -1,14 +1,13 @@
-# test-component-zl
+# 快速开始
 
-### 快速开始
-
-#### 1. 安装组件库
-
+#### 安装组件库
 ```bash
 npm i test-component-zl
 ```
 
-#### 2. 引用组件库
+
+#### 引用组件库
+> 在main.js 中引用组件库
 
 ```javascript
 // 全部引入
