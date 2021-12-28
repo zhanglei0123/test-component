@@ -5,9 +5,9 @@ module.exports = {
     nav: [{
       text: 'Home', link: '/',
     }, {
-      text: 'Github', link: 'https://githum.com/zhanglei0123/test-component'
+      text: 'Github', link: 'https://github.com/zhanglei0123/test-component'
     }, {
-      test: 'Npm', link: 'https://www.npmjs.com/package/test-component-zl'
+      text: 'Npm', link: 'https://www.npmjs.com/package/test-component-zl'
     }],
     sidebar: [
       '/',
